@@ -1,6 +1,11 @@
 version: '3'
 
 services:
-  ban_poll_bot:
-    image: $BAN_POLL_BOT_IMAGE
+  app:
+    build:
+      context: ./
     restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./:/app

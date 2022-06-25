@@ -23,5 +23,5 @@ class BotLogger(logging.Logger):
         self.addHandler(handler)
 
 
-def get_logger(name, level = logging.NOTSET) -> BotLogger:
+def get_logger(name, level=logging.NOTSET) -> BotLogger:
     return BotLogger(name, level)
