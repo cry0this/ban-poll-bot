@@ -12,3 +12,5 @@ RUN : \
     ;
 
 RUN ln -s /app/ban_poll_bot/cmd/run.py /usr/local/bin/ban_poll_bot
+
+CMD ["ban_poll_bot"]
