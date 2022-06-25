@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ban_poll_bot:
+    build:
+      context: ./
+
+    volumes:
+      - ./:/app
