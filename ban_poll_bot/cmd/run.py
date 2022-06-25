@@ -101,7 +101,7 @@ async def help(ctx):
 > `banpoll.help` - получить данную справку
 > `banpoll.kick @username` - выгнать юзера
 > `banpoll.ban @username` - забанить юзера
-> `banpoll.mute @username - замьютить юзера на {} {}
+> `banpoll.mute @username` - замьютить юзера на {} {}
 > `banpoll.flush @username` - обнулить голоса за юзера
 > `banpoll.votes @username` - посмотреть голоса за юзера
 
